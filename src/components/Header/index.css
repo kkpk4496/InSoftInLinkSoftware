@@ -1,0 +1,59 @@
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-width: 100vw;
+  font-family: roboto;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100vw;
+  padding: 10px;
+  padding-left: 75px;
+}
+.btn-container {
+  display: flex;
+  margin-right: 75px;
+}
+.dialer {
+  background-color: #ff5202;
+  border-radius: 75px;
+  padding: 5px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+.header-btn {
+  margin: 5px;
+  border: none;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+.aa {
+  color: #000000;
+}
+.aa1 {
+  color: #1448d6;
+}
+.whatsapp {
+  background-color: #1bd741;
+}
+.mobile {
+  background-color: #a4c639;
+}
+.icons {
+  margin-right: 3px;
+}

@@ -1,0 +1,379 @@
+.home {
+  background-image: url('https://schoolaura.com/Content/new_assets/images/header/banner-bg.png');
+  background-size: cover;
+}
+.home1 {
+  background-color: #ff5202;
+  height: 550px;
+  width: 100vw;
+}
+.cloud {
+  background-image: url('https://schoolaura.com/Content/new_assets/images/header/logo-cloud.png');
+  position: absolute;
+  background-size: contain;
+  width: 280px;
+  height: 130px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  width: 130px;
+  height: 44px;
+  margin: 10px;
+}
+.options {
+  display: flex;
+  justify-content: center;
+}
+.Menuitems {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+.drop-icon {
+  color: #ffffff;
+}
+li {
+  list-style: none;
+  margin: 5px;
+}
+a {
+  color: #ffffff;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 175px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #9a9fa3;
+  padding: 5px;
+  border-radius: 4px;
+}
+hr {
+  min-width: 175px;
+  border-bottom: 1px solid #ff0000;
+}
+.school {
+  padding: 10px;
+}
+.girl {
+  margin-top: 80px;
+  margin-left: 75px;
+  margin-right: -65px;
+  z-index: 500;
+}
+.girl-container {
+  display: flex;
+  align-content: center;
+  margin-top: 80px;
+}
+.head {
+  font-weight: 600;
+  font-size: 52px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 0px;
+  margin-left: 50px;
+}
+span {
+  color: #ffffff;
+}
+.para {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 50px;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 220px;
+  height: 240px;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.course-btn {
+  background-color: #ff5202;
+  border-radius: 24px;
+  border: none;
+  color: #ffffff;
+  margin: 10px;
+  padding: 8px;
+  width: 140px;
+}
+.ul-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: -100px;
+  min-width: 320px;
+  height: 360px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.login-logo {
+  margin-top: -80px;
+}
+.login-option {
+  display: flex;
+  justify-content: space-around;
+  width: 240px;
+  cursor: pointer;
+}
+.options {
+  border-bottom: 1px solid #9a9fa3;
+  color: #9a9fa3;
+}
+.highlight {
+  border-bottom: 1px solid #ff5202;
+  color: #789c05;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+input {
+  margin-top: 4px;
+  width: 240px;
+  height: 30px;
+  background-color: #f9f9f9;
+  border: 1px solid #9a9fa3;
+  margin-bottom: 5px;
+}
+label {
+  font-family: roboto;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.eye {
+  cursor: pointer;
+}
+.login-btn {
+  width: 240px;
+  height: 35px;
+  margin-top: 15px;
+  border: none;
+  color: #ffffff;
+  background-color: #000000;
+  cursor: pointer;
+}
+.forgot-pswd {
+  text-align: right;
+  width: 240px;
+  font-size: 12px;
+  color: #090909;
+  padding: 0px;
+}
+.page-container {
+  margin: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 1200px;
+}
+.banner {
+  background-color: #343a40;
+  background-image: url('https://schoolaura.com/Content/new_assets/images/banner-2/Clip.png');
+  background-size: contain;
+  width: 400px;
+  height: 400px;
+  margin-top: 10px;
+  border-bottom-right-radius: 75px;
+}
+.courses {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 200px;
+  width: 250px;
+}
+.side-head {
+  color: #000000;
+  font-weight: 700;
+}
+.group {
+  margin-left: 100px;
+  margin-top: -200px;
+}
+.course-list {
+  display: flex;
+  width: 60vw;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+}
+.o-button {
+  background-color: #f1f1f1;
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px;
+}
+.active {
+  border-left: 6px solid #ff5202;
+  background-color: #ffffff;
+}
+.subject-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 140px;
+  max-height: 50px;
+  border: 1px solid #d9d9da;
+}
+.lists-c {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ver-container {
+  max-height: 15px;
+  line-height: 5px;
+  margin-top: -10px;
+}
+.N-letter {
+  padding-left: 10px;
+  margin-top: -1px;
+  background-color: #343a40;
+  color: #9a9fa3;
+}
+.orange {
+  color: #ff5202;
+}
+.side-head {
+  margin-left: 150px;
+}
+.center-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  text-align: center;
+}
+.tasks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  max-width: 300px;
+  min-height: 250px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.h45 {
+  margin-bottom: 0px;
+}
+.task-icon {
+  margin-top: 15px;
+}
+.task-cont {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 200px;
+}
+.mob {
+  background-color: #d9d9da;
+  display: flex;
+  margin-bottom: 20px;
+}
+.mob-ph {
+  height: 350px;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+.mob-para {
+  font-size: 19.2px;
+}
+.down {
+  background-color: #007bff;
+  border: none;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 5px;
+}
+.contain {
+  font-weight: 300;
+  margin-left: 150px;
+  max-width: 720px;
+  font-size: 20px;
+}
+.unor {
+  list-style: disc;
+}
+.thumpsup {
+  display: flex;
+  width: 100vw;
+}
+.seats-container {
+  background-image: url('https://schoolaura.com/Content/new_assets/images/spreading/Clip.png');
+  background-size: cover;
+  background-color: #090909;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  margin-left: 150px;
+}
+.happy-container {
+  background-color: #f1f1f1;
+  padding: 25px;
+  margin-top: 50px;
+  display: flex;
+  align-items: flex-start;
+}
+.ha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+}
+.ha1 {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+}
+.final {
+  width: 100vw;
+}
